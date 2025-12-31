@@ -4,5 +4,10 @@
   "description": "日本語版にのみ存在するバグを修正します",
   "version": "0.0.0",
   "manifestVersion": 1,
+  "files": {
+    "text": [
+      "languages/farawaytown_extras_misc.yamld"
+    ]
+  },
   "$schema": "https://rph.space/oneloader.manifestv1.schema.json"
 }

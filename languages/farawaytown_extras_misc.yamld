@@ -1,0 +1,47 @@
+[
+  {
+    "op": "replace",
+    "path": "/message_38/text",
+    "value": "すごく小さなボウル[S]"
+  },
+  {
+    "op": "replace",
+    "path": "/message_39/text",
+    "value": "すごく大きなボウル[S]"
+  },
+  {
+    "op": "replace",
+    "path": "/message_40/text",
+    "value": "派手なボウル[S]"
+  },
+  {
+    "op": "replace",
+    "path": "/message_41/text",
+    "value": "華麗なお皿[S]"
+  },
+  {
+    "op": "replace",
+    "path": "/message_42/text",
+    "value": "ワイングラス[S]"
+  },
+  {
+    "op": "replace",
+    "path": "/message_43/text",
+    "value": "グラス[S]"
+  },
+  {
+    "op": "replace",
+    "path": "/message_44/text",
+    "value": "「ママ大好き」マグカップ[S]"
+  },
+  {
+    "op": "replace",
+    "path": "/message_45/text",
+    "value": "水玉模様のマグカップ[S]"
+  },
+  {
+    "op": "replace",
+    "path": "/message_46/text",
+    "value": "地味なお皿[S]"
+  }
+]
