@@ -5,8 +5,12 @@
   "version": "0.0.0",
   "manifestVersion": 1,
   "files": {
+    "plugins": [
+      "plugins/JPFIX_mayoi.js"
+    ],
     "text": [
-      "languages/farawaytown_extras_misc.yamld"
+      "languages/farawaytown_extras_misc.yamld",
+      "languages/XX_BLUE.yamld"
     ]
   },
   "$schema": "https://rph.space/oneloader.manifestv1.schema.json"
