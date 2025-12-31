@@ -1,0 +1,17 @@
+[
+  {
+    "op": "replace",
+    "path": "/53/note",
+    "value": "<damage formula>\nvalue = 300\nif(target.name() === \"スペース元旦那\") {\nif(!target.isAnyEmotionAffected()) {\nvalue = 0\n}\n}\n</damage formula>\n\n<HideInMenu>\n\n<setup action>\nshow battle hud\nadd state 110: actors\neval: $gameTroop.members().forEach(e => {e.result().missed = false; e.result().evaded = false;})\n</setup action>\n\n<AntiFail>"
+  },
+  {
+    "op": "replace",
+    "path": "/54/note",
+    "value": "<damage formula>\nvalue = 600\nif(target.name() === \"スペース元旦那\") {\nif(!target.isAnyEmotionAffected()) {\nvalue = 0\n}\n}\n</damage formula>\n<HideInMenu>\n\n<setup action>\nshow battle hud\nadd state 110: actors\nadd state 110: actors\neval: $gameTroop.members().forEach(e => {e.result().missed = false; e.result().evaded = false;})\n</setup action>\n\n<AntiFail>"
+  },
+  {
+    "op": "replace",
+    "path": "/55/note",
+    "value": "<damage formula>\nvalue = 1000\nif(target.name() === \"スペース元旦那\") {\nif(!target.isAnyEmotionAffected()) {\nvalue = 0\n}\n}\n</damage formula>\n<HideInMenu>\n\n<setup action>\nshow battle hud\nadd state 110: actors\nadd state 110: actors\neval: $gameTroop.members().forEach(e => {e.result().missed = false; e.result().evaded = false;})\n</setup action>\n\n<AntiFail>"
+  }
+]

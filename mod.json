@@ -11,6 +11,9 @@
     "text": [
       "languages/farawaytown_extras_misc.yamld",
       "languages/XX_BLUE.yamld"
+    ],
+    "data": [
+      "data/Skills.jsond"
     ]
   },
   "$schema": "https://rph.space/oneloader.manifestv1.schema.json"
