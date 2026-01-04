@@ -1,6 +1,26 @@
 [
   {
     "op": "replace",
+    "path": "/36/damage/elementId",
+    "value": 0
+  },
+  {
+    "op": "replace",
+    "path": "/36/damage/formula",
+    "value": "b.isAnyEmotionAffected() ? a.atk * 3.5 - b.def : a.atk * 2.5 - b.def"
+  },
+  {
+    "op": "replace",
+    "path": "/36/description",
+    "value": "相手が「にこにこ」、「しょんぼり」、または「いらいら」[br]状態なら、ダメージが上がる攻撃。コスト：30"
+  },
+  {
+    "op": "replace",
+    "path": "/36/mpCost",
+    "value": 30
+  },
+  {
+    "op": "replace",
     "path": "/53/note",
     "value": "<damage formula>\nvalue = 300\nif(target.name() === \"スペース元旦那\") {\nif(!target.isAnyEmotionAffected()) {\nvalue = 0\n}\n}\n</damage formula>\n\n<HideInMenu>\n\n<setup action>\nshow battle hud\nadd state 110: actors\neval: $gameTroop.members().forEach(e => {e.result().missed = false; e.result().evaded = false;})\n</setup action>\n\n<AntiFail>"
   },
