@@ -6,7 +6,8 @@
   "manifestVersion": 1,
   "files": {
     "plugins": [
-      "plugins/JPFIX_mayoi.js"
+      "plugins/JPFIX_mayoi.js",
+      "plugins/JPFIX_sehflash.js"
     ],
     "text": [
       "languages/farawaytown_extras_misc.yamld",
