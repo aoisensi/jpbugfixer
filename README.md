@@ -2,6 +2,6 @@
 
 日本語版OMORIに存在するいくつかのバグを修正します
 
-### ダウンロード
+### [修正済みバグ一覧](/LIST.md)
 
-[mods.one](https://mods.one/mod/jpbugfixer)
+### [ダウンロード](https://mods.one/mod/jpbugfixer)
