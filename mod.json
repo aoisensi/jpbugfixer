@@ -2,7 +2,7 @@
   "id": "jpbugfixer",
   "name": "日本語版バグ修正",
   "description": "日本語版にのみ存在するバグを修正します",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "manifestVersion": 1,
   "files": {
     "plugins": [
